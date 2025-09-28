@@ -1,0 +1,16 @@
+type Car {
+  id: ID!
+  type: String!
+  model: String!
+  location: String!
+}
+
+input CarFilter {
+  type: String
+  model: String
+  location: String
+}
+
+type Query {
+  searchCars(filter: CarFilter): [Car!]!
+}

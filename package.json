@@ -7,14 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js",
+    "relay": "relay-compiler --watch"
   },
   "dependencies": {
     "@autoguru/overdrive": "^4.48.0",
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.16.0",
     "react": "^19.1.1",
     "react-aria-components": "^1.12.2",
     "react-dom": "^19.1.1",
-    "react-stately": "^3.41.0"
+    "react-relay": "^20.1.1",
+    "react-stately": "^3.41.0",
+    "relay": "^0.8.0-1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
