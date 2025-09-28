@@ -1,6 +1,7 @@
 import { createServer } from "http";
 import { createSchema, createYoga } from "graphql-yoga";
 
+
 const cars = [
   { id: "1", type: "SUV", model: "Rav4", location: "Sydney" },
   { id: "2", type: "Sedan", model: "Camry", location: "Brisbane" },

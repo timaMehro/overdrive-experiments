@@ -4,7 +4,7 @@ import BrandMessage from "./components/BrandMessage";
 import Quotes from "./components/Quotes";
 import { FlexInline, OverdriveProvider } from "@autoguru/overdrive";
 import { RelayEnvironmentProvider } from "react-relay";
-import makeEnvironment from "./RelayEnvironment";
+import { makeEnvironment } from "../environment";
 
 const environment = makeEnvironment();
 
