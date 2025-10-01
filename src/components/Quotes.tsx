@@ -86,7 +86,7 @@ export default function FormStatic() {
         <SelectInput
           name="text"
           placeholder="What do you drive?"
-          value=""
+          value={type}
           onChange={(e: any) => setType(e.target.value)}
         >
           <option value=""></option>
@@ -101,7 +101,7 @@ export default function FormStatic() {
         <SelectInput
           name="text"
           placeholder="which model?"
-          value=""
+          value={model}
           onChange={(e: any) => setModel(e.target.value)}
         >
           <option value="audi"></option>
@@ -115,7 +115,7 @@ export default function FormStatic() {
         <SelectInput
           name="text"
           placeholder="postcode"
-          value=""
+          value={location}
           onChange={(e: any) => setLocation(e.target.value)}
         >
           <option value="audi"></option>
